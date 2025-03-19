@@ -47,4 +47,6 @@ BUTTON.addEventListener('click', () => {
         return;
     }
     return theDawnOfDifference();
-});
+})
+
+;

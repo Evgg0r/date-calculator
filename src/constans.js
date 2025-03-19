@@ -4,3 +4,4 @@
     export const MILLISECONDS_IN_ONE_DAY = 1000 * 60 * 60 * 24;
     export const MILLISECONDS_IN_ONE_HOUR = 1000 * 60 * 60
     export const TIME_LEFT = document.querySelector('.time-left');
+
