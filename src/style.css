@@ -1,0 +1,72 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.input-container {
+  display: flex;
+  align-items: flex-end;
+  gap: 30px
+}
+
+.date-input {
+
+}
+.date-input label {
+  display: block;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #303030;
+  margin-bottom: 18px;
+}
+.date-input input {
+  width: 360px;
+  height: 50px;
+  border: 1px solid #e2e2e2;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #d9d9d9;
+  padding: 0 12px;
+}
+.calculate-button {
+  border-radius: 8px;
+  width: 380px;
+  height: 50px;
+  background: #5e55d6;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+}
+.time-left {
+
+}
+
+.time-left span {
+  display: block;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #000;
+  margin-bottom: 8px;
+}
+
+.time-left p {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  color: #000;
+  margin: 0;
+}
